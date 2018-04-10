@@ -3,7 +3,7 @@ function drawTree(a){
     for(var i=1;i<=a;i++) {
       
      var star = " ";
-     for(var k=10;k>=i;k--) {
+     for(var k=a;k>=i;k--) {
        star += " ";
      }
      
@@ -20,4 +20,4 @@ function drawTree(a){
      }
   };
   
-drawTree(10);
+drawTree(100);
